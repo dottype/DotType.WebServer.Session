@@ -1,0 +1,20 @@
+{
+    "name": "dottype.webserver.session",
+    "version": "0.0.1",
+    "description": "Session middleware for DotType.WebServer",
+    "author": "DotType",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dottype/DotType.WebServer.Session.git"
+    },
+    "dependencies": {
+        "dottype": "^0.0.12",
+        "dottype.io": "^0.0.1",
+        "dottype.utils": "^0.0.1",
+        "dottype.webserver": "^0.0.5"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.18"
+    }
+}

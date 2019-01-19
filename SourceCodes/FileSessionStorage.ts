@@ -1,7 +1,7 @@
 import { ISessionStorage } from "./Interfaces/ISessionStorage"
 import { ISession } from "./Interfaces/ISession";
-import { FileSystem } from "../../Packages/DotType.IO/FileSystem";
-import { NameValueObject } from "../../Packages/DotType.Utils/NameValueObject";
+import { FileSystem } from "dottype.io/FileSystem";
+import { NameValueObject } from "dottype.utils/NameValueObject";
 
 export class FileSessionStorage implements ISessionStorage
 {

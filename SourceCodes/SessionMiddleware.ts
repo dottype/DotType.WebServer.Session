@@ -1,11 +1,14 @@
 import { SessionManager } from "./SessionManager";
 import { Session } from "./Session";
 import { FileSessionStorage } from "./FileSessionStorage";
-import { IMiddleware } from "../../DotType.WebServer/Interfaces/IMiddleware";
-import { IHttpContext } from "../../DotType.WebServer/Interfaces/IHttpContext";
-import { ArgumentNullException } from "../../Packages/DotType/Exceptions/ArgumentNullException";
-import { Guid } from "../../Packages/DotType/Guid";
-import { Exception } from "../../Packages/DotType/Exceptions/Exception";
+import { IMiddleware } from "dottype.webserver/Interfaces/IMiddleware";
+import { IHttpContext } from "dottype.webserver/Interfaces/IHttpContext";
+import { ArgumentNullException } from "dottype/Exceptions/ArgumentNullException";
+import { Guid } from "dottype/Guid";
+import { Exception } from "dottype/Exceptions/Exception";
+import "dottype.webserver.cookie/Extensions/DotType.WebServer.Cookie.IServerRequestExtensions";
+import "dottype.webserver.cookie/Extensions/DotType.WebServer.Cookie.IServerResponseExtensions";
+import "./Extensions/DotType.WebServer.Session.IHttpContextExtensions";
 
 export class SessionMiddleware implements IMiddleware
 {

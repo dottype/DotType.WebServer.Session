@@ -1,6 +1,6 @@
 import { SessionOptions } from "./SessionOptions";
 import { ISessionStorage } from "./Interfaces/ISessionStorage";
-import { ArgumentNullException } from "../../Packages/DotType/Exceptions/ArgumentNullException";
+import { ArgumentNullException } from "dottype/Exceptions/ArgumentNullException";
 
 /** Represents the base class for managing sessions. */
 export class SessionManager

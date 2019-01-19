@@ -1,6 +1,7 @@
 import { ISession } from "../Interfaces/ISession";
+import "dottype.webserver/Interfaces/IHttpContext"
 
-declare module "../../../DotType.WebServer/Interfaces/IHttpContext"
+declare module "dottype.webserver/Interfaces/IHttpContext"
 {
     export interface IHttpContext
     {

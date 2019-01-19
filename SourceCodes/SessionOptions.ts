@@ -1,5 +1,5 @@
-import { CookieOptions } from "../../Middleware/DotType.WebServer.Cookie/CookieOptions";
-import { SameSiteMode } from "../../Middleware/DotType.WebServer.Cookie/SameSiteMode";
+import { CookieOptions } from "dottype.webserver.cookie/CookieOptions";
+import { SameSiteMode } from "dottype.webserver.cookie/SameSiteMode";
 
 /** Represents a set of Session options. */
 export class SessionOptions

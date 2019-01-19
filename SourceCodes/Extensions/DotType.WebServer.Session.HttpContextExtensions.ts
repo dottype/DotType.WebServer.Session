@@ -1,6 +1,7 @@
 import { Session } from "../Session";
+import "dottype.webserver/HttpContext"
 
-declare module "../../../DotType.WebServer/HttpContext"
+declare module "dottype.webserver/HttpContext"
 {
     export interface HttpContext
     {
