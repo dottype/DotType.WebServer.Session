@@ -1,6 +1,6 @@
 {
     "name": "dottype.webserver.session",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Session middleware for DotType.WebServer",
     "author": "DotType",
     "license": "Apache-2.0",
@@ -12,7 +12,8 @@
         "dottype": "^0.0.12",
         "dottype.io": "^0.0.1",
         "dottype.utils": "^0.0.1",
-        "dottype.webserver": "^0.0.5"
+        "dottype.webserver": "^0.0.6",
+        "dottype.webserver.cookie": "^0.0.2"
     },
     "devDependencies": {
         "@types/node": "^10.12.18"

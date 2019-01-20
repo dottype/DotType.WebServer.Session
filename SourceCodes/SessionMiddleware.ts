@@ -2,7 +2,7 @@ import { SessionManager } from "./SessionManager";
 import { Session } from "./Session";
 import { FileSessionStorage } from "./FileSessionStorage";
 import { IMiddleware } from "dottype.webserver/Interfaces/IMiddleware";
-import { IHttpContext } from "dottype.webserver/Interfaces/IHttpContext";
+import { IHttpContext } from "dottype.hosting/Interfaces/IHttpContext";
 import { ArgumentNullException } from "dottype/Exceptions/ArgumentNullException";
 import { Guid } from "dottype/Guid";
 import { Exception } from "dottype/Exceptions/Exception";
